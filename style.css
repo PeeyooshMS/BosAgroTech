@@ -548,11 +548,6 @@ main .recent-orders a {
     margin-top: 1.8rem;
   }
 
-  main .insights {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
   main .date {
     display: inline-block;
     background: var(--color-light);
@@ -564,6 +559,11 @@ main .recent-orders a {
   main .date input[type="date"] {
     background: transparent;
     color: var(--color-dark);
+  }
+
+  main .insights {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
   main .recent-orders {
@@ -578,12 +578,10 @@ main .recent-orders a {
     width: 83vw;
   }
 
-  main table thead tr th:nth-child(2),
   main table thead tr th:nth-child(3) {
     display: none;
   }
 
-  main table tbody tr td:nth-child(2),
   main table tbody tr td:nth-child(3) {
     display: none;
   }
